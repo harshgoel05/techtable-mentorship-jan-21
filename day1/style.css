@@ -1,0 +1,55 @@
+#a1 {
+  width: 800px;
+  height: 500px;
+}
+.tr {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.tl {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.br {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+.bl {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+@media (max-width: 800px) {
+  /* it will be applied if the screen width is less than 800px */
+  #a1 {
+    width: 400px;
+    height: 400px;
+  }
+  .tr {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+  }
+  .tl {
+    width: 200px;
+    height: 200px;
+  }
+
+  .br {
+    width: 200px;
+    height: 200px;
+  }
+  .bl {
+    width: 200px;
+    height: 200px;
+  }
+}
