@@ -1,7 +1,7 @@
 fetchData();
 
 function fetchData() {
-  fetch("http://localhost:3000/api/")
+  fetch("https://costic-backend.herokuapp.com/api")
     .then(async (res) => await res.json())
     .then((data) => {
       data.forEach((expense, index) => {

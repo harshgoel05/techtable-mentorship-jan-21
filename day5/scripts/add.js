@@ -8,7 +8,7 @@ document.getElementById("submit").addEventListener("click", () => {
   };
   console.log(data);
 
-  fetch("http://localhost:3000/api/", {
+  fetch("https://costic-backend.herokuapp.com/api", {
     method: "POST",
     body: JSON.stringify(data),
     headers: {
